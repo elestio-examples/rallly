@@ -12,6 +12,8 @@ environments:
     value: "latest"
   - key: "ADMIN_PASSWORD"
     value: "random_password"
+  - key: "ADMIN_EMAIL"
+    value: "[EMAIL]"
   - key: "NEXT_PUBLIC_BASE_URL"
     value: "https://[CI_CD_DOMAIN]"
   - key: "SUPPORT_EMAIL"
@@ -29,7 +31,7 @@ environments:
   - key: "AUTH_REQUIRED"
     value: "true"
   - key: "DISABLE_LANDING_PAGE"
-    value: "false"
+    value: "true"
 
 config:
   runTime: "dockerCompose"
