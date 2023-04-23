@@ -10,10 +10,5 @@ Deploy Rallly server with CI/CD on Elestio
 
 # Once deployed ...
 
-You will receive a code by mail at [ADMIN_EMAIL].
+You will need to register, then, once done, you will receive a code by email to complete the registration
 If you don't receive it, check your spam.
-
-You can open Rallly UI here:
-
-    URL: https://[CI_CD_DOMAIN]
-    email: [ADMIN_EMAIL]
